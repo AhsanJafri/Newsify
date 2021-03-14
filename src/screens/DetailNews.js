@@ -57,8 +57,8 @@ export class DetailNews extends Component {
             </Text>
           </LinearGradient>
         </View>
-        <View style={{height: CONTENT}}>
-          <ScrollView>
+        <ScrollView>
+          <View style={{height: CONTENT}}>
             <Text
               style={{
                 fontFamily: FontStyles.Comfortaa,
@@ -104,8 +104,8 @@ export class DetailNews extends Component {
               }}>
               {item.author}
             </Text>
-          </ScrollView>
-        </View>
+          </View>
+        </ScrollView>
       </View>
     );
   }
