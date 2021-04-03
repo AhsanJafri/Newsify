@@ -31,8 +31,8 @@ export class NewsScreen extends Component {
       list: [],
     };
   }
+  //Ahsan
   componentDidMount() {
-    //   let a=Da
     axios
       .get(
         `https://newsapi.org/v2/everything?q=sports&from=${DateFunc()}&sortBy=popularity&apiKey=749c96ca705f4a4b8e3322b7dc6684cb`,
